@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css --minify",
-    "start": "npm run build && npx serve public"
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/style.css --minify"
   },
   "author": "Mehdy",
   "license": "ISC",
